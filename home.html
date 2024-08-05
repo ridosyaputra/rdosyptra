@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>home</title>
+        <script>
+            //membuat variabel
+            var visitor = 50322;
+            var isActive = true;
+            var url = "https://www.petanikode.com";
+
+            // menampilkan variabel ke jendela dialog (alert)
+            alert("selamat datang di halaman saya" + name);
+            // menampilkan variabel ke dalam HTML
+            document.write("Jumlah pengunjung " + visitorCount + "<br>");
+            document.write("Status aktip " + isActive + "<br>");
+            document.write("Alamat URL " + url + "<br>");
+        </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Saya</title>
+    <link rel="stylesheet" href="css.txt">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    margin: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #333;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.profile {
+    flex: 1 1 300px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile img {
+    display: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+
+}
+
+.details {
+    flex: 1 1 400px;
+}
+
+.details h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.details ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.details ul li {
+    margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
+
+.heart {
+    color: red;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="home.html" >home</a> |
+        <a href="biodata.html" >biodata</a> |
+        <a href="film fav.html" >film fav</a> |
+        <a href="panutan.html" >panutan</a>
+    </nav>
+    <div class="container">
+        <header>
+            <h1>hallo semuanya</h1>
+        </header>
+        <footer>
+            <p>&copy; 2024 Profil Saya. Dibuat dengan <span class="heart">&hearts;</span> oleh Saya</p>
+        </footer>
+    </div>
+</body>
+</html>
